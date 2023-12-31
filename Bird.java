@@ -345,7 +345,7 @@ class Game extends JPanel implements ActionListener {
         setFocusable(true);
         setDoubleBuffered(false);
         addKeyListener(new GameKeyAdapter());
-        Timer timer = new Timer(15, this);
+        Timer timer = new Timer(10, this);
         timer.start();
     }
 
